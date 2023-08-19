@@ -1,0 +1,11 @@
+.entry-page{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Jumbotron{
+    border-radius: 5px;
+    background-color: white;
+}
