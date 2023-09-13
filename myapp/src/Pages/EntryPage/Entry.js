@@ -7,7 +7,7 @@ import Jumbotron from 'react-bootstrap/Jumbotron'
 export const Entry = () => {
   const [email,setEmail]=useState();
   const [password,setPassword]=useState();
-  Const [typeImplementation,settype]=useState("Login");
+  const [typeImplementation,settype]=useState("Login");
   
   const onChangeEvent=(e)=>{
       const {name, value}=e.target;

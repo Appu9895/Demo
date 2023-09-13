@@ -16,7 +16,7 @@ export const PasswordReset = ({onChangeEvent,email,pass,SubmitData}) => {
                     <Form.Control onChange={onChangeEvent} value={email} type="email" name="email" placeholder='Enter Email ' required />
                    
                 </Form.Group>
-                <Button className='form-box'onClick={SubmitData} type="submit">Login</Button>
+                <Button className='form-box'onClick={SubmitData} type="submit">Submit</Button>
             </Form>
 
             </Col>
