@@ -1,11 +1,17 @@
 import React from 'react'
-import { Container, Row ,Col, Button } from 'react-bootstrap'
+import { Container, Row ,Col, Button, Breadcrumb } from 'react-bootstrap'
 import { TicketTable } from '../../Components/Ticket-table/TicketTable.comp'
 import Tickets from '../../assets/Data/Dummy-tickets.json'
+import { CompBreadcrumb } from '../../Components/Breadcrumb/Breadcrumb.comp'
 
 export const Dashboard = () => {
   return (
     <Container>
+        <Row>
+            <Col>
+            <CompBreadcrumb  page="Dashboard"/>
+            </Col>
+        </Row>
         <Row className='text-center'>
             <Col>
             <Button variant='info' style={{'fontSize':'2rem',padding:"10px 30px"}} >
