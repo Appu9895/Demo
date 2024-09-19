@@ -10,6 +10,8 @@ function App() {
       <DefaultLayout>
         <Dashboard/>
         <AddTicket></AddTicket>
+
+        <h1>Hello World</h1>
         
       </DefaultLayout>
     </div>
